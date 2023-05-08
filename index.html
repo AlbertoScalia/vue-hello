@@ -13,11 +13,12 @@
 
 <body>
     <div id="app">
-        <div class="contenitore_principale text-center pt-5">
-            <h1>
+        <div class="contenitore_principale text-center pt-5" :class="{colore_secondario: is_colore_secondario}">
+            <h1 :class="{secondario: is_colore_secondario}">
                 {{ messaggio }}
             </h1>
             <img :src="logo">
+            <button @click="cambioColoreSfondo">Click here</button>
         </div>
     </div>
 
