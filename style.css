@@ -1,0 +1,9 @@
+.contenitore_principale {
+    height: 100vh;
+    background-color: rgb(50, 80, 100);
+}
+
+h1 {
+    font-size: 3rem;
+    color: rgb(70, 185, 133);
+}
